@@ -1,0 +1,18 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Go source files should always use LF
+*.go text eol=lf
+
+# Shell scripts should always use LF
+*.sh text eol=lf
+
+# Windows batch files should always use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Denote all files that are truly binary and should not be modified
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary 

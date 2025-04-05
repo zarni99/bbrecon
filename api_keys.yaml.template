@@ -1,0 +1,117 @@
+# BBRECON API Keys Configuration
+# =============================
+#
+# INSTRUCTIONS:
+# 1. Only add the API keys you actually have 
+# 2. Delete lines or leave empty "" for services you don't use
+# 3. Keep the exact key names as shown below
+# 4. Free sources will always work without API keys
+
+# PRIMARY SOURCES (Most valuable)
+# ------------------------------
+virustotal_api_key: ""                                             # https://virustotal.com/
+shodan_api_key: ""                                                 # https://shodan.io/
+securitytrails_api_key: ""                                         # https://securitytrails.com/
+censys_api_id: ""                                                  # https://censys.io/
+censys_api_secret: ""                                              # https://censys.io/
+github_api_key: ""                                                 # https://github.com/settings/tokens
+
+# SUBDOMAIN SOURCES
+# ----------------
+binaryedge_api_key: ""                                             # https://binaryedge.io/
+fullhunt_api_key: ""                                               # https://fullhunt.io/
+spyse_api_key: ""                                                  # https://spyse.com/
+bevigil_api_key: ""                                                # https://bevigil.com/
+certspotter_api_key: ""                                            # https://sslmate.com/certspotter/
+chaos_api_key: ""                                                  # https://chaos.projectdiscovery.io/
+passivetotal_username: ""                                          # https://community.riskiq.com/
+passivetotal_api_key: ""                                           # https://community.riskiq.com/
+subfinder_api_key: ""                                              # https://projectdiscovery.io/
+urlscan_api_key: ""                                                # https://urlscan.io/
+dnsdb_api_key: ""                                                  # https://www.domaintools.com/
+dnsdumpster_api_key: ""                                            # https://dnsdumpster.com/
+dnsrepo_api_key: ""                                                # https://dnsrepo.noc.org/
+viewdns_api_key: ""                                                # https://viewdns.info/
+bufferover_api_key: ""                                             # https://tls.bufferover.run/
+builtwith_api_key: ""                                              # https://builtwith.com/
+cloudflare_api_key: ""                                             # https://cloudflare.com/
+cloudflare_email: ""                                               # https://cloudflare.com/
+netlas_api_key: ""                                                 # https://netlas.io/
+leakix_api_key: ""                                                 # https://leakix.net/
+threatbook_api_key: ""                                             # https://threatbook.io/
+intelx_api_key: ""                                                 # https://intelx.io/
+intelx_api_url: ""                                                 # https://intelx.io/
+c99_api_key: ""                                                    # https://api.c99.nl/
+whoisxmlapi_api_key: ""                                            # https://whoisxmlapi.com/
+fofa_email: ""                                                     # https://fofa.info/
+fofa_api_key: ""                                                   # https://fofa.info/
+quake_api_key: ""                                                  # https://quake.360.cn/
+robtex_api_key: ""                                                 # https://www.robtex.com/
+zoomeye_api_key: ""                                                # https://www.zoomeye.org/
+
+# THIRD-PARTY SERVICES
+# -------------------
+domaintools_username: ""                                           # https://domaintools.com/
+domaintools_api_key: ""                                            # https://domaintools.com/
+alienvault_api_key: ""                                             # https://otx.alienvault.com/
+hunter_api_key: ""                                                 # https://hunter.io/
+emailrep_api_key: ""                                               # https://emailrep.io/
+snov_user_id: ""                                                   # https://snov.io/
+snov_secret: ""                                                    # https://snov.io/
+wappalyzer_api_key: ""                                             # https://wappalyzer.com/
+whatcms_api_key: ""                                                # https://whatcms.org/
+
+# CLOUD SERVICES
+# -------------
+aws_access_key: ""                                                 # https://aws.amazon.com/
+aws_secret_key: ""                                                 # https://aws.amazon.com/
+aws_region: ""                                                     # https://aws.amazon.com/
+digitalocean_api_key: ""                                           # https://www.digitalocean.com/
+
+# SEARCH ENGINES
+# -------------
+bing_api_key: ""                                                   # https://www.microsoft.com/en-us/bing/apis/
+google_api_key: ""                                                 # https://developers.google.com/custom-search/
+google_cx: ""                                                      # https://developers.google.com/custom-search/
+
+# VERSION CONTROL
+# -------------
+gitlab_api_key: ""                                                 # https://gitlab.com/
+bitbucket_username: ""                                             # https://bitbucket.org/
+bitbucket_app_password: ""                                         # https://bitbucket.org/
+
+# SOCIAL MEDIA
+# -----------
+facebook_api_key: ""                                               # https://developers.facebook.com/
+twitter_api_key: ""                                                # https://developer.twitter.com/
+twitter_api_secret: ""                                             # https://developer.twitter.com/
+twitter_access_token: ""                                           # https://developer.twitter.com/
+twitter_access_secret: ""                                          # https://developer.twitter.com/
+linkedin_api_key: ""                                               # https://www.linkedin.com/developers/
+linkedin_api_secret: ""                                            # https://www.linkedin.com/developers/
+dropcontact_api_key: ""                                            # https://www.dropcontact.com/
+
+# SECURITY & THREAT INTELLIGENCE
+# ----------------------------
+vulners_api_key: ""                                                # https://vulners.com/
+nvd_api_key: ""                                                    # https://nvd.nist.gov/
+openvul_api_key: ""                                                # https://openvulnerability.org/
+crowdstrike_client_id: ""                                          # https://www.crowdstrike.com/
+crowdstrike_client_secret: ""                                      # https://www.crowdstrike.com/
+greynoise_api_key: ""                                              # https://greynoise.io/
+hybridanalysis_api_key: ""                                         # https://www.hybrid-analysis.com/
+maltiverse_api_key: ""                                             # https://maltiverse.com/
+pulsedive_api_key: ""                                              # https://pulsedive.com/
+threatminer_api_key: ""                                            # https://www.threatminer.org/
+
+# IP & NETWORK INTELLIGENCE
+# -----------------------
+ipstack_api_key: ""                                                # https://ipstack.com/
+ipapi_api_key: ""                                                  # https://ipapi.com/
+ipdata_api_key: ""                                                 # https://ipdata.co/
+ipqualityscore_api_key: ""                                         # https://www.ipqualityscore.com/
+fraudguard_username: ""                                            # https://fraudguard.io/
+fraudguard_password: ""                                            # https://fraudguard.io/
+hostio_api_key: ""                                                 # https://host.io/
+dnslytics_api_key: ""                                              # https://dnslytics.com/
+onyphe_api_key: ""                                                 # https://www.onyphe.io/
